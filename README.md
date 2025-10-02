@@ -44,8 +44,12 @@ Currently, I am pursuing an **M.S. in Robotics (ECE)** at **University of Califo
 
 ## Publications
 
-1. adapter  
-2. snake  
+1. [Peixing You et al., "An Adapter for Interactive Object Retrieval on the Shelf," 2024 IEEE 14th International Conference on CYBER Technology in Automation, Control, and Intelligent Systems (CYBER), Copenhagen, Denmark, 2024, pp. 505-510, doi: 10.1109/CYBER63482.2024.10749016. keywords: {Visualization;Automation;Grasping;Control systems;Planning;Object recognition;Intelligent systems;Robots}](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=NeJWdkcAAAAJ&citation_for_view=NeJWdkcAAAAJ:u-x6o8ySG0sC)
+
+
+2. [Peixing You et al., “Snake: Shape-Aware Neural 3d Keypoint Field.” Advances in Neural Information Processing Systems., vol. 35, 2022.](https://proceedings.neurips.cc/paper_files/paper/2022/file/2e3eccb54649186564ad6627ed80848c-Paper-Conference.pdf)
+   
+
 
 ---
 
