@@ -26,26 +26,27 @@ Here are some ideas to get you started:
 
 ---
 
-## Education
-
-**Tsinghua University**
-*BS in Material Science and Engineering, BS in Computer Science*
-*Aug. 2019 – Jun. 2024*
-
-* GPA: 3.08/4.0
-* Advanced GPA (last three years): 3.58/4.0
-* Advisor: Prof. Yang Liu, Prof. Peng Li, Prof. Huaping Liu
-
-**University of California, San Diego**
-*MS in Robotics under ECE*
-*Sep. 2025 –*
+I graduated as bachelor Material Science and Engineering, BS in Computer Science* form **Tsinghua University** (*Aug. 2019 – Jun. 2024*) now is a MS student in Robotics in **University of California, San Diego** (2025.09 -- now)
 
 ---
 
 ## Work & Research Interest
 
-**AI + Robotics / Embodied Intelligence**
-I'm enthusiastic about developing robots that act smart, safe, and quick.
+- I'm enthusiastic about developing robots that act smart, safe, and quick.
+ 
+## what I did before
+
+
+- previosuly, I worked on manipulation, locomotion and navigation.
+- 
+
+## What I'm doing now
+- I'm currently working on hand design optimization.
+- I begin my fall quarter in UCSD, here I taking CSE276A robotics, ECE250 and ECE143 this semester, also doing research in xiaolong's lab.
+- I participated in AdventureX2025 hackathon and made the amazing harware AI earphone - smart life recorder.
+
+## what I want to do in the future
+
 
 ---
 
@@ -54,38 +55,7 @@ I'm enthusiastic about developing robots that act smart, safe, and quick.
 1. adapter
 2. snake
 
----
 
-## Work Experience
-
-**Software Engineering Intern, Baidu — Beijing, China**
-*Mar. 2024 – May. 2024*
-
-* Participated in the development of a software system to process and analyze semi-structured information at scale.
-* Explored various preprocessing pipelines for structured tables to support downstream decision-making and task execution.
-* Designed and implemented modular scripts to extract key insights from extensive information sets using pattern matching and template-based approaches.
-* Built a pipeline to interface with external computational tools, enabling large-scale analysis beyond in-memory capacity.
-
----
-
-## Research Experience
-
-**Environmental Data Analysis and Visualization**
-*Oct. 2021 – Jun. 2022*
-
-* Enhanced the accuracy and reliability of environmental analysis through three-dimensional visualization techniques, achieving up to 85% precision in interpreting results.
-* Employed a self-supervised approach to develop algorithms for identifying patterns in environmental phenomena.
-* Collaborated with Chengliang Zhong to improve evaluation efficiency by optimizing processing methods, significantly reducing computational time.
-
-**Interactive Environmental Monitoring System**
-*Jul. 2023 – Sep. 2023*
-
-* Developed an interactive approach for monitoring environmental parameters, focusing on real-time observation and interpretation.
-* Proposed a feedback framework for enhancing accuracy based on sensor inputs, achieving an 80% success rate in reliability.
-* Implemented techniques to identify and track changes in the environment, thereby improving the system’s responsiveness to dynamic conditions.
-* Collaborated with team members to create a simulation environment for testing and validating monitoring strategies.
-
----
 
 ## Awards
 
