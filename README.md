@@ -1,16 +1,14 @@
-## Hi there 👋
+# Hi there 👋
 
 ---
 
-# Peixing You
+## Peixing You
 
 📧 [ypxypxypx700@gmail.com](mailto:ypxypxypx700@gmail.com)  
 💻 [GitHub](https://github.com/ypx19)  
 🎓 [Google Scholar](https://scholar.google.com/citations?user=NeJWdkcAAAAJ)  
 
 ---
-
-## About Me
 
 I received my **B.S. in Material Science and Engineering** and **B.S. in Computer Science** from **Tsinghua University** (Aug. 2019 – Jun. 2024).  
 Currently, I am pursuing an **M.S. in Robotics (ECE)** at **University of California, San Diego** (Sep. 2025 – present).  
@@ -25,18 +23,19 @@ Currently, I am pursuing an **M.S. in Robotics (ECE)** at **University of Califo
 
 ---
 
-## Experience
-
-### 🔙 Past Work
+## 🔙 Past Work
 - Previously worked on **manipulation, locomotion, and navigation**.  
-- Conducted projects in **environmental monitoring systems** and **data analysis/visualization**.  
-
-### 🔥 Current Work
-- Research on **robotic hand design optimization** in Xiaolong’s lab at UCSD.  
-- Enrolled in courses: **CSE276A (Robotics)**, **ECE250**, **ECE143**.  
+![self-balancing robot](img/self%20balancing%20car-1.mov)
+![3d key point detection](img/snake.png) 
+![interactive manipulation](img/grasp.png)
 - Participated in **AdventureX 2025 Hackathon**, where I co-developed a **hardware AI earphone: Smart Life Recorder**.  
+![AI earphone that capture and record your routine life and assist you with AI](img/Lumen_Boom.jpeg)
 
-### 🚀 Future Plans
+## 🔥 Current Work
+- Research on **robotic hand design optimization** in [Xiaolong Wang’s lab](https://xiaolonw.github.io/group.html) at UCSD.  
+
+
+## 🚀 Future Plans
 - Continue exploring **embodied intelligence** and **AI-driven robot design**.  
 - Seek opportunities to collaborate on **robot learning, control, and human–robot interaction**.  
 
@@ -50,6 +49,14 @@ Currently, I am pursuing an **M.S. in Robotics (ECE)** at **University of Califo
 2. [Peixing You et al., “Snake: Shape-Aware Neural 3d Keypoint Field.” Advances in Neural Information Processing Systems., vol. 35, 2022.](https://proceedings.neurips.cc/paper_files/paper/2022/file/2e3eccb54649186564ad6627ed80848c-Paper-Conference.pdf)
    
 
+---
+
+## News
+
+- 2025.10.03: I'm currently Enrolled in courses: **CSE276A (Robotics)**, **ECE250**, **ECE143** in UCSD.  
+- 2025.10.03: I'm studying a [humanoid locomotion project](https://github.com/rohanpsingh/LearningHumanoidWalking)  
+![ground gait](img/humanoid_walking.mp4)
+![aerial gait](img/humanoid_walking_aerial.mp4)
 
 ---
 
@@ -64,9 +71,3 @@ Currently, I am pursuing an **M.S. in Robotics (ECE)** at **University of Califo
 
 ---
 
-## Gallery / Media
-
-Here is a template for inserting images in Markdown:
-
-```markdown
-![Alt text (short description)](link_to_image.png)
