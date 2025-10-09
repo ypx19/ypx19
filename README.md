@@ -27,9 +27,15 @@ Currently, I am pursuing an **M.S. in Robotics (ECE)** at **University of Califo
 - Previously worked on **manipulation, locomotion, and navigation**.  
 ### self-balancing robot
 
+https://github.com/user-attachments/assets/8e97b14f-d94a-4447-a250-16d967f622a3
+
+### 3d key point detection with self-supervised learning
 ![3d key point detection](img/snake.png) 
+
+### interactive grasping
 ![interactive manipulation](img/grasp.png)
-- Participated in **AdventureX 2025 Hackathon**, where I co-developed a **hardware AI earphone: Smart Life Recorder**.  
+
+### hardware AI earphone: Smart Life Recorder (AdventureX 2025 Hackathon)  
 ![AI earphone that capture and record your routine life and assist you with AI](img/Lumen_Boom.jpeg)
 
 ## 🔥 Current Work
@@ -56,9 +62,11 @@ Currently, I am pursuing an **M.S. in Robotics (ECE)** at **University of Califo
 
 
 - 2025.10.03: I'm currently Enrolled in courses: **ECE271A**, **ECE250**, **ECE143** in UCSD.  
+
 - 2025.10.03: I'm studying a [humanoid locomotion project](https://github.com/rohanpsingh/LearningHumanoidWalking)  
-![ground gait](img/humanoid_walking.mp4)
-![aerial gait](img/humanoid_walking_aerial.mp4)
+  - ground gait: https://github.com/user-attachments/assets/5bbd67fa-1220-4100-92e8-de8a640f325f
+  - aerial gait  https://github.com/user-attachments/assets/f78e691d-75a1-4a27-9ad8-fcd41158c0a1
+
 - 2025.09.28 I joined [Xiaolong Wang’s lab](https://xiaolonw.github.io/group.html) at UCSD to conduct research in dexterous hand manipulation.
 
 ---
