@@ -25,7 +25,8 @@ Currently, I am pursuing an **M.S. in Robotics (ECE)** at **University of Califo
 
 ## 🔙 Past Work
 - Previously worked on **manipulation, locomotion, and navigation**.  
-![self-balancing robot](img/self%20balancing%20car-1.mov)
+### self-balancing robot
+
 ![3d key point detection](img/snake.png) 
 ![interactive manipulation](img/grasp.png)
 - Participated in **AdventureX 2025 Hackathon**, where I co-developed a **hardware AI earphone: Smart Life Recorder**.  
@@ -53,10 +54,12 @@ Currently, I am pursuing an **M.S. in Robotics (ECE)** at **University of Califo
 
 ## News
 
-- 2025.10.03: I'm currently Enrolled in courses: **CSE276A (Robotics)**, **ECE250**, **ECE143** in UCSD.  
+
+- 2025.10.03: I'm currently Enrolled in courses: **ECE271A**, **ECE250**, **ECE143** in UCSD.  
 - 2025.10.03: I'm studying a [humanoid locomotion project](https://github.com/rohanpsingh/LearningHumanoidWalking)  
 ![ground gait](img/humanoid_walking.mp4)
 ![aerial gait](img/humanoid_walking_aerial.mp4)
+- 2025.09.28 I joined [Xiaolong Wang’s lab](https://xiaolonw.github.io/group.html) at UCSD to conduct research in dexterous hand manipulation.
 
 ---
 
@@ -70,4 +73,13 @@ Currently, I am pursuing an **M.S. in Robotics (ECE)** at **University of Califo
 ⚙️ **May. 2020** — Tsinghua Mechanical Engineering Design Competition (3rd)  
 
 ---
+
+## Online Certificates
+
+- [Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and
+Optimization(Coursera, Andrew Ng)](https://www.coursera.org/account/accomplishments/verify/WMFNDEKNGLHJ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course)
+
+- [Neural Networks and Deep Learning(Coursera, Andrew Ng)](https://www.coursera.org/account/accomplishments/verify/VSOTKC0DXVA5?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course)
+
+- [Structuring Machine Learning Projects(Coursera, Andrew Ng)](https://www.coursera.org/account/accomplishments/verify/C57EMMJZGM4B?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course)
 
