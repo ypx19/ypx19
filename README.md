@@ -47,7 +47,6 @@ Currently, I am pursuing an **M.S. in Robotics (ECE)** at **University of Califo
     <td style="width:50%; vertical-align:top;">
       <p><strong>interactive grasping</strong><br>
       <sub>interactive manipulation in a complex scenario</sub></p>
-      <video src="https://github.com/user-attachments/assets/8e97b14f-d94a-4447-a250-16d967f622a3" width="100%" controls playsinline muted loop></video>
       <img src="img/grasp.png" alt="3D keypoint" style="width:100%;">
     </td>
     <td style="width:50%; vertical-align:top;">
