@@ -31,7 +31,7 @@ Currently, I am pursuing an **M.S. in Robotics (ECE)** at **University of Califo
     <td style="width:50%; vertical-align:top;">
       <p><strong>Self-balancing robot</strong><br>
       <sub>PID + LQR control, stm32 based</sub></p>
-      <video src="https://github.com/user-attachments/assets/8e97b14f-d94a-4447-a250-16d967f622a3" width="100%" controls playsinline muted loop></video>
+      <video src="https://github.com/user-attachments/assets/a373023f-6887-40fc-90fe-587c75e8fef3" width="100%" controls playsinline muted loop></video>
     </td>
     <td style="width:50%; vertical-align:top;">
       <p><strong>3d key point detection</strong><br>
