@@ -24,19 +24,41 @@ Currently, I am pursuing an **M.S. in Robotics (ECE)** at **University of Califo
 ---
 
 ## 🔙 Past Work
-- Previously worked on **manipulation, locomotion, and navigation**.  
-### self-balancing robot
+### Previously worked on **manipulation, locomotion, and navigation**.
 
-https://github.com/user-attachments/assets/8e97b14f-d94a-4447-a250-16d967f622a3
+<table>
+  <tr>
+    <td style="width:50%; vertical-align:top;">
+      <p><strong>Self-balancing robot</strong><br>
+      <sub>PID + LQR control, stm32 based</sub></p>
+      <video src="https://github.com/user-attachments/assets/8e97b14f-d94a-4447-a250-16d967f622a3" width="100%" controls playsinline muted loop></video>
+    </td>
+    <td style="width:50%; vertical-align:top;">
+      <p><strong>3d key point detection</strong><br>
+      <sub>self-supervised learning, point cloud perception</sub></p>
+      <img src="img/snake.png" alt="3D keypoint" style="width:100%;">
+    </td>
+  </tr>
+</table>
 
-### 3d key point detection with self-supervised learning
-![3d key point detection](img/snake.png) 
 
-### interactive grasping
-![interactive manipulation](img/grasp.png)
+<table>
+  <tr>
+    <td style="width:50%; vertical-align:top;">
+      <p><strong>interactive grasping</strong><br>
+      <sub>interactive manipulation in a complex scenario</sub></p>
+      <video src="https://github.com/user-attachments/assets/8e97b14f-d94a-4447-a250-16d967f622a3" width="100%" controls playsinline muted loop></video>
+      <img src="img/grasp.png" alt="3D keypoint" style="width:100%;">
+    </td>
+    <td style="width:50%; vertical-align:top;">
+      <p><strong>hardware AI earphone: Smart Life Recorder (AdventureX 2025 Hackathon) </strong><br>
+      <sub>AI earphone that capture and record your routine life and assist you with AI</sub></p>
+      <img src="img/Lumen_Boom.jpeg" alt="3D keypoint" style="width:100%;">
+    </td>
+  </tr>
+</table>
 
-### hardware AI earphone: Smart Life Recorder (AdventureX 2025 Hackathon)  
-![AI earphone that capture and record your routine life and assist you with AI](img/Lumen_Boom.jpeg)
+
 
 ## 🔥 Current Work
 - Research on **robotic hand design optimization** in [Xiaolong Wang’s lab](https://xiaolonw.github.io/group.html) at UCSD.  
