@@ -64,9 +64,10 @@ https://github.com/user-attachments/assets/8e97b14f-d94a-4447-a250-16d967f622a3
 - 2025.10.03: I'm currently Enrolled in courses: **ECE271A**, **ECE250**, **ECE143** in UCSD.  
 
 - 2025.10.03: I'm studying a [humanoid locomotion project](https://github.com/rohanpsingh/LearningHumanoidWalking)  
-  - ground gait: https://github.com/user-attachments/assets/5bbd67fa-1220-4100-92e8-de8a640f325f
-  - aerial gait  https://github.com/user-attachments/assets/f78e691d-75a1-4a27-9ad8-fcd41158c0a1
-
+<p>
+  <video src="https://github.com/user-attachments/assets/5bbd67fa-1220-4100-92e8-de8a640f325f" width="48%" grounf gait></video>
+  <video src="https://github.com/user-attachments/assets/f78e691d-75a1-4a27-9ad8-fcd41158c0a1" width="48%" aerial gait></video>
+</p>
 - 2025.09.28 I joined [Xiaolong Wang’s lab](https://xiaolonw.github.io/group.html) at UCSD to conduct research in dexterous hand manipulation.
 
 ---
