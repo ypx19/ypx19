@@ -1,9 +1,6 @@
-# Hi there 👋
+# Peixing You 👋
 
 ---
-
-## Peixing You
-
 📧 [ypxypxypx700@gmail.com](mailto:ypxypxypx700@gmail.com)  
 💻 [GitHub](https://github.com/ypx19)  
 🎓 [Google Scholar](https://scholar.google.com/citations?user=NeJWdkcAAAAJ)  
