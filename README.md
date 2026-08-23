@@ -1,120 +1,141 @@
-# Peixing You 👋
+# Peixing You
 
----
-📧 [ypxypxypx700@gmail.com](mailto:ypxypxypx700@gmail.com)  
-💻 [GitHub](https://github.com/ypx19)  
-🎓 [Google Scholar](https://scholar.google.com/citations?user=NeJWdkcAAAAJ)  
+MS Robotics at UC San Diego. I build physical robots and the software that makes AI agents trustworthy — from dexterous hands and teleoperation to production verification products and multi-agent simulation backends.
 
----
+**[Homepage](https://ypx19.github.io)** · [Email](mailto:peyou@ucsd.edu) · [LinkedIn](https://www.linkedin.com/in/peixing-you-64a577300) · [Google Scholar](https://scholar.google.com/citations?user=NeJWdkcAAAAJ)
 
-I received my **B.S. in Material Science and Engineering** and **B.S. in Computer Science** from **Tsinghua University** (Aug. 2019 – Jun. 2024).  
-Currently, I am pursuing an **M.S. in Robotics (ECE)** at **University of California, San Diego** (Sep. 2025 – present).  
+| | |
+|---|---|
+| **Education** | MS Robotics, UC San Diego (GPA 3.8) · BS MSE + BS CS, Tsinghua University |
+| **Focus** | Manipulation, control, dexterous hand, perception, LLM agents, full-stack AI products |
+| **Highlight** | NeurIPS 2022 Spotlight · IEEE CYBER 2024 Best Poster |
+| **Based in** | San Diego, CA |
 
----
+## About
 
-## Research & Work Interests
+I’m a robotics graduate student advised by [Prof. Xiaolong Wang](https://xiaolonw.github.io/) at UC San Diego, with dual bachelor’s degrees in Materials Science and Computer Science from Tsinghua University. My work sits at the seam of embodiment and intelligence: optimizing robot hardware for the real world, shipping LLM backends that survive long-context failure modes, and turning early product ideas into usable systems.
 
-🤖 **AI + Robotics / Embodied Intelligence**  
-- Passionate about developing robots that are **intelligent, safe, and responsive**.  
-- Interested in **manipulation, locomotion, navigation, and robot design optimization**.  
+Lately that means contributing to [Transnode AI](https://www.transnode.ai/)’s [AuthenlyUSA](https://authenlyusa.com/) verification product, hardening the [Agent Arena](https://agent-arena.tech/) simulation stack, and prototyping low-cost dexterous hands and teleoperation platforms in the lab.
 
----
+## Experience
 
-## 🔙 Past Work
-### Previously worked on **manipulation, locomotion, and navigation**.
+### [Transnode AI](https://www.transnode.ai/) — CTO & Co-Founder, AuthenlyUSA
+*San Diego, CA · Jul 2026 – Present*
+- Shipping full-stack features on [AuthenlyUSA](https://authenlyusa.com/), Transnode’s AI credential & identity verification product for hiring and compliance workflows.
+- Built admin review tooling (rejection notes, secondary staff review, document filters, expiry reminders) used in live verification operations.
+- Improved candidate subscription & billing UX — cancel-at-period-end, expiry reset, pricing/CTA consistency — on a production React/TypeScript SaaS codebase.
+
+### [Agent Arena](https://agent-arena.tech/) — Member of Technical Staff
+*Cambridge, MA · Mar 2026 – Present*
+- Translated product needs into an LLM-powered multi-agent simulation system with Python & FastAPI; work supported acquisition of real paid startup customers.
+- Integrated MinIO (S3-compatible) object storage for scalable multi-file workflows across simulation sessions.
+- Diagnosed long-context LLM blocking failures and implemented timeout/recovery logic, cutting worst-case pipeline blocking by **96.7%** (300s → 10s).
+
+### UC San Diego — Research, Dexterous Hand & Teleoperation
+*[Wang Lab](https://xiaolonw.github.io/) · Sep 2025 – Present*
+- Built a neural optimization pipeline (PyTorch + NVIDIA Warp) using forward kinematics and human finger-motion data to explore low-cost dexterous hand designs.
+- Closed the Sim2Real gap with SDF-based collision metrics; cut inter-finger collision cases in the physical 3D-printed prototype by **50%**.
+- Assembled a Gello-based teleoperation platform (YAM arm, Dynamixel actuators) and upstreamed CAD/spec fixes via open-source PR.
+
+### AdventureX 2025 — Hardware–Software Lead, Lumen
+*Hangzhou, China · Jul 2025 – Aug 2025*
+- Built a vision-enabled AI earphone prototype in three days: ESP32 camera, Bluetooth, speaker output, mobile triggering, and LLM connectivity.
+- Led end-to-end hardware–software integration (ring wake-up, capture, BLE chunked transfer, phone-side processing).
+
+### Baidu — LLM Agent Engineering / Testing Intern
+*Beijing, China · Apr 2024 – Jun 2024*
+- Built evaluation workflows and result-checking logic for an LLM spreadsheet-processing agent.
+- Scaled multi-threaded Python evaluation pipelines and structured test datasets to accelerate R&D decisions.
+
+### AIR, Tsinghua University — Research Assistant, Perception & 3D Learning
+*Beijing, China · 2020 – 2024*
+- Designed an LLM-based active-perception policy with memory for indoor object localization (~3× efficiency vs. strongest baseline SPL).
+- Co-developed SNAKE (**NeurIPS 2022 Spotlight**): shape-aware self-supervised 3D keypoint fields with up to 85% repeatability.
+- Built the IEEE CYBER 2024 Best Poster interactive grasping pipeline (ROS + RGB-D + point clouds) for crowded shelf retrieval.
+
+## Selected projects
 
 <table>
   <tr>
-    <td style="width:50%; vertical-align:top;">
-      <p><strong>Self-balancing robot</strong><br>
-      <sub>PID + LQR control, stm32 based</sub></p>
-      <video src="https://github.com/user-attachments/assets/a373023f-6887-40fc-90fe-587c75e8fef3" width="100%" controls playsinline muted loop></video>
+    <td valign="top" width="50%">
+      <img src="img/rod-rotation-poster.png" alt="Rod Rotation MVP" />
+      <p><strong>Rod Rotation MVP</strong><br />
+      <sub>MuJoCo · IsaacGym · RL · Manipulation</sub></p>
+      <p>RL-trained three-finger in-hand rotation under tip constraints — a stable twisting gait built for future dexterous tool use.</p>
+      <p><a href="https://github.com/ypx19/allegro_rod_mvp">GitHub</a> · <a href="https://ypx19.github.io/allegro_rod_mvp/demo.html">Interactive demo</a></p>
     </td>
-    <td style="width:50%; vertical-align:top;">
-      <p><strong>3d key point detection</strong><br>
-      <sub>self-supervised learning, point cloud perception</sub></p>
-      <img src="img/snake.png" alt="3D keypoint" style="width:100%;">
+    <td valign="top" width="50%">
+      <img src="img/self-balancing-pipeline.png" alt="Self-balancing robot control architecture" />
+      <p><strong>Self-Balancing Robot</strong><br />
+      <sub>Embedded · PID · Control</sub></p>
+      <p>Arduino + IMU + encoder dual-loop PID balancing from scratch — ISR-driven sensing and motor control.</p>
+      <p><a href="https://github.com/ypx19/self-balancing-robot">GitHub</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <img src="img/interactive-grasp.jpg" alt="Interactive grasping in cluttered shelves" />
+      <p><strong>Interactive Grasping in Crowds</strong><br />
+      <sub>ROS · Manipulation · Best Poster</sub></p>
+      <p>Closed-loop retrieval in cluttered shelves — perception, interactive planning, and grasp execution. IEEE CYBER 2024 Best Poster.</p>
+      <p><a href="https://ieeexplore.ieee.org/document/10749016/">IEEE paper</a> · <a href="https://ypx19.github.io/interactive-grasping/">Project page</a></p>
+    </td>
+    <td valign="top" width="50%">
+      <img src="img/Lumen_Boom.jpeg" alt="Lumen AI earphone prototype" />
+      <p><strong>AI-Powered Earphone Prototype</strong><br />
+      <sub>Hackathon · ESP32 · LLM · Advx25</sub></p>
+      <p>Three-day AdventureX 2025 build: camera, Bluetooth, speaker, and LLM connectivity for vision-aware conversational assistance.</p>
+      <p><a href="https://github.com/ypx19/Lumen">GitHub</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <p><strong>Gello Robot for Teleoperation</strong><br />
+      <sub>Teleoperation · Hardware · Data collection</sub></p>
+      <p>Low-cost Gello-style teleoperation device integrating motors, brackets, 3D-printed structure, and calibration for human demonstration collection toward imitation learning.</p>
+    </td>
+    <td valign="top" width="50%">
+      <p><strong>Humanoid Walking in MuJoCo</strong><br />
+      <sub>MuJoCo · Locomotion</sub></p>
+      <p>Studying balance, contact forces, and whole-body control strategies for stable humanoid locomotion in simulation.</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <p><strong>Dual-Friction-Wheel Launcher</strong><br />
+      <sub>Embedded · Mech · 3rd Prize</sub></p>
+      <p>Remote-control siege robot with dual friction-wheel launcher — chassis, transmission, motor control, and power. Tsinghua SIEGE 3rd Prize.</p>
+    </td>
+    <td valign="top" width="50%">
+      <p><strong>Optimization-Driven Robotic Hand</strong><br />
+      <sub>Warp · Optimization · Sim2Real</sub></p>
+      <p>Neural design search for printable dexterous hands; SDF collision objectives to make physical prototypes safer for teleoperation. <em>Coming soon.</em></p>
     </td>
   </tr>
 </table>
 
+## Skills
 
-<table>
-  <tr>
-    <td style="width:50%; vertical-align:top;">
-      <p><strong>interactive grasping</strong><br>
-      <sub>interactive manipulation in a complex scenario</sub></p>
-      <img src="img/grasp.png" alt="3D keypoint" style="width:100%;">
-    </td>
-    <td style="width:50%; vertical-align:top;">
-      <p><strong>hardware AI earphone: Smart Life Recorder (AdventureX 2025 Hackathon) </strong><br>
-      <sub>AI earphone that capture and record your routine life and assist you with AI</sub></p>
-      <img src="img/Lumen_Boom.jpeg" alt="3D keypoint" style="width:100%;">
-    </td>
-  </tr>
-</table>
+**Languages** — Python, C++, TypeScript, Java, SQL, Embedded C  
+**Frontend / Backend** — React, REST APIs, FastAPI, auth, databases, object storage, logging, timeout handling  
+**Robotics & Sim** — ROS, MuJoCo, Isaac Gym, PID/LQR, manipulation, navigation, diffusion policy, VLA  
+**AI / ML** — LLM agents, PEFT, representation learning, RL, imitation learning, PyTorch, NVIDIA Warp  
+**Embedded** — ISRs, PWM motor control, IMU estimation, Bluetooth, hardware–software integration  
+**Infra** — Linux, Git, Docker, AWS, MinIO / S3
 
+## Publications & honors
 
+1. Peixing You, Hang Li, et al. (2024). “An Adapter for Interactive Object Retrieval on the Shelf.” *IEEE CYBER 2024*. [doi:10.1109/CYBER63482.2024.10749016](https://ieeexplore.ieee.org/document/10749016/)
+2. Peixing You, Chengliang Zhong, et al. (2022). “SNAKE: Shape-aware Neural 3D Keypoint Field.” *NeurIPS 2022* (Spotlight). [PDF](https://proceedings.neurips.cc/paper_files/paper/2022/file/2e3eccb54649186564ad6627ed80848c-Paper-Conference.pdf)
 
-## 🔥 Current Work
-- Research on **robotic hand design optimization** in [Xiaolong Wang’s lab](https://xiaolonw.github.io/group.html) at UCSD.  
+- IEEE CYBER 2024 Best Poster Award
+- NeurIPS 2022 Spotlight Paper
+- Tsinghua Science & Technology Innovation Excellence Scholarship (Top 1%)
+- Tsinghua Learning Progress Scholarship (Top 1%)
+- Tsinghua Siege Robotic Competition — Third Prize
 
+## Contact
 
-## 🚀 Future Plans
-- Continue exploring **embodied intelligence** and **AI-driven robot design**.  
-- Seek opportunities to collaborate on **robot learning, control, and human–robot interaction**.  
+Open to research collaborations, robotics / AI systems roles, and interesting prototype problems.
 
----
-
-## Publications
-
-1. [Peixing You et al., "An Adapter for Interactive Object Retrieval on the Shelf," 2024 IEEE 14th International Conference on CYBER Technology in Automation, Control, and Intelligent Systems (CYBER), Copenhagen, Denmark, 2024, pp. 505-510, doi: 10.1109/CYBER63482.2024.10749016. keywords: {Visualization;Automation;Grasping;Control systems;Planning;Object recognition;Intelligent systems;Robots}](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=NeJWdkcAAAAJ&citation_for_view=NeJWdkcAAAAJ:u-x6o8ySG0sC)
-
-
-2. [Peixing You et al., “Snake: Shape-Aware Neural 3d Keypoint Field.” Advances in Neural Information Processing Systems., vol. 35, 2022.](https://proceedings.neurips.cc/paper_files/paper/2022/file/2e3eccb54649186564ad6627ed80848c-Paper-Conference.pdf)
-   
-
----
-
-## News
-
-
-- 2025.10.03: I'm currently Enrolled in courses: **ECE271A**, **ECE250**, **ECE143** in UCSD.  
-
-- 2025.10.03: I'm studying a [humanoid locomotion project](https://github.com/rohanpsingh/LearningHumanoidWalking)  
-
-<table>
-  <tr>
-    <td style="width:50%; vertical-align:top;">
-      <video src="https://github.com/user-attachments/assets/5bbd67fa-1220-4100-92e8-de8a640f325f" width="48%" grounf gait></video>
-    </td>
-    <td style="width:50%; vertical-align:top;">
-      <video src="https://github.com/user-attachments/assets/f78e691d-75a1-4a27-9ad8-fcd41158c0a1" width="48%" aerial gait></video>
-    </td>
-  </tr>
-</table>
-
-- 2025.09.28 I joined [Xiaolong Wang’s lab](https://xiaolonw.github.io/group.html) at UCSD to conduct research in dexterous hand manipulation.
-
----
-
-## Awards
-
-🏅 **Sep. 2024** — IEEE-CYBER 2024 Finalist of Best Poster Award  
-🏅 **Mar. 2023** — Tsinghua Science and Tech Innovation Excellence Award (Top 10%)  
-🏅 **Mar. 2023** — Tsinghua Learning Progress Scholarship (Top 10%)  
-⚽ **May. 2022** — Tsinghua Ma YueHan Soccer Cup (3rd)  
-📐 **Dec. 2020** — Chinese College Student Mathematics Competition (3rd)  
-⚙️ **May. 2020** — Tsinghua Mechanical Engineering Design Competition (3rd)  
-
----
-
-## Online Certificates
-
-- [Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and
-Optimization(Coursera, Andrew Ng)](https://www.coursera.org/account/accomplishments/verify/WMFNDEKNGLHJ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course)
-
-- [Neural Networks and Deep Learning(Coursera, Andrew Ng)](https://www.coursera.org/account/accomplishments/verify/VSOTKC0DXVA5?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course)
-
-- [Structuring Machine Learning Projects(Coursera, Andrew Ng)](https://www.coursera.org/account/accomplishments/verify/C57EMMJZGM4B?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course)
-
+**[peyou@ucsd.edu](mailto:peyou@ucsd.edu)** · [Homepage](https://ypx19.github.io) · [LinkedIn](https://www.linkedin.com/in/peixing-you-64a577300) · [Google Scholar](https://scholar.google.com/citations?user=NeJWdkcAAAAJ)
