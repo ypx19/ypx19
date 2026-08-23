@@ -78,7 +78,7 @@ Lately that means contributing to [Transnode AI](https://www.transnode.ai/)’s 
       <p><strong>Interactive Grasping in Crowds</strong><br />
       <sub>ROS · Manipulation · Best Poster</sub></p>
       <p>Closed-loop retrieval in cluttered shelves — perception, interactive planning, and grasp execution. IEEE CYBER 2024 Best Poster.</p>
-      <p><a href="https://ieeexplore.ieee.org/document/10749016/">IEEE paper</a> · <a href="https://ypx19.github.io/interactive-grasping/">Project page</a></p>
+      <p><a href="https://github.com/ypx19/interactive-grasping-in-crowd">GitHub</a> · <a href="https://ieeexplore.ieee.org/document/10749016/">IEEE paper</a> · <a href="https://ypx19.github.io/interactive-grasping/">Project page</a></p>
     </td>
     <td valign="top" width="50%">
       <img src="img/Lumen_Boom.jpeg" alt="Lumen AI earphone prototype" />
