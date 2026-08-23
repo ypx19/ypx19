@@ -58,14 +58,15 @@ Lately that means contributing to [Transnode AI](https://www.transnode.ai/)’s 
 <table>
   <tr>
     <td valign="top" width="50%">
-      <img src="img/rod-rotation-poster.png" alt="Rod Rotation MVP" />
+      <video src="https://github.com/ypx19/ypx19/releases/download/profile-demos/rod-rotation-screwdriver.mp4" width="100%" autoplay loop muted playsinline></video>
+      <video src="https://github.com/ypx19/ypx19/releases/download/profile-demos/rod-rotation-isaacgym.mp4" width="100%" autoplay loop muted playsinline></video>
       <p><strong>Rod Rotation MVP</strong><br />
       <sub>MuJoCo · IsaacGym · RL · Manipulation</sub></p>
       <p>RL-trained three-finger in-hand rotation under tip constraints — a stable twisting gait built for future dexterous tool use.</p>
       <p><a href="https://github.com/ypx19/allegro_rod_mvp">GitHub</a> · <a href="https://ypx19.github.io/allegro_rod_mvp/demo.html">Interactive demo</a></p>
     </td>
     <td valign="top" width="50%">
-      <img src="img/self-balancing-pipeline.png" alt="Self-balancing robot control architecture" />
+      <video src="https://github.com/ypx19/ypx19/releases/download/profile-demos/self-balancing-demo.mp4" width="100%" autoplay loop muted playsinline></video>
       <p><strong>Self-Balancing Robot</strong><br />
       <sub>Embedded · PID · Control</sub></p>
       <p>Arduino + IMU + encoder dual-loop PID balancing from scratch — ISR-driven sensing and motor control.</p>
@@ -74,7 +75,7 @@ Lately that means contributing to [Transnode AI](https://www.transnode.ai/)’s 
   </tr>
   <tr>
     <td valign="top" width="50%">
-      <img src="img/interactive-grasp.jpg" alt="Interactive grasping in cluttered shelves" />
+      <video src="https://github.com/ypx19/ypx19/releases/download/profile-demos/interactive-grasp-demo.mp4" width="100%" autoplay loop muted playsinline></video>
       <p><strong>Interactive Grasping in Crowds</strong><br />
       <sub>ROS · Manipulation · Best Poster</sub></p>
       <p>Closed-loop retrieval in cluttered shelves — perception, interactive planning, and grasp execution. IEEE CYBER 2024 Best Poster.</p>
@@ -90,11 +91,13 @@ Lately that means contributing to [Transnode AI](https://www.transnode.ai/)’s 
   </tr>
   <tr>
     <td valign="top" width="50%">
+      <video src="https://github.com/ypx19/ypx19/releases/download/profile-demos/gello-demo.mp4" width="100%" autoplay loop muted playsinline></video>
       <p><strong>Gello Robot for Teleoperation</strong><br />
       <sub>Teleoperation · Hardware · Data collection</sub></p>
       <p>Low-cost Gello-style teleoperation device integrating motors, brackets, 3D-printed structure, and calibration for human demonstration collection toward imitation learning.</p>
     </td>
     <td valign="top" width="50%">
+      <video src="https://github.com/ypx19/ypx19/releases/download/profile-demos/humanoid-walking.mp4" width="100%" autoplay loop muted playsinline></video>
       <p><strong>Humanoid Walking in MuJoCo</strong><br />
       <sub>MuJoCo · Locomotion</sub></p>
       <p>Studying balance, contact forces, and whole-body control strategies for stable humanoid locomotion in simulation.</p>
