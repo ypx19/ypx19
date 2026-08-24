@@ -76,10 +76,8 @@ Lately that means contributing to [Transnode AI](https://www.transnode.ai/)’s 
   </tr>
   <tr>
     <td valign="top" width="50%">
-      <a href="https://ypx19.github.io/self-balancing-robot/">
-        <video src="https://ypx19.github.io/assets/projects/self-balancing-hw-teaser.mp4" width="49%" muted loop playsinline controls poster="https://ypx19.github.io/assets/projects/self-balancing-hw.jpg" aria-label="Hardware balancing teaser"></video>
-        <video src="https://ypx19.github.io/assets/projects/self-balancing-sim-teaser.mp4" width="49%" muted loop playsinline controls poster="https://ypx19.github.io/assets/projects/self-balancing-sim.jpg" aria-label="Sim RL-on-grade teaser"></video>
-      </a>
+      <a href="https://ypx19.github.io/self-balancing-robot/"><img src="img/self-balancing-hw-teaser.gif" alt="Hardware self-balancing robot balancing on tile floor" /></a>
+      <a href="https://ypx19.github.io/self-balancing-robot/"><img src="img/self-balancing-sim-teaser.gif" alt="RL policy leaning into a grade in the self-balancing robot sim" /></a>
       <p><strong>Self-Balancing Robot</strong><br />
       <sub>Embedded · PID · IL/RL · Control</sub></p>
       <p>Arduino + IMU + encoder dual-loop PID from scratch — then the same plant in sim, with imitation and RL learning to lean into a grade.</p>
