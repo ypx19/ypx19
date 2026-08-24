@@ -58,6 +58,14 @@ Lately that means contributing to [Transnode AI](https://www.transnode.ai/)’s 
 <table>
   <tr>
     <td valign="top" width="50%">
+      <img src="img/wheel-leg-eval.gif" alt="CJ-003 wheel-legged policy on Genesis eval terrain" />
+      <img src="img/wheel-leg-moonwalk.gif" alt="CJ-003 moonwalk motion from trained policy" />
+      <p><strong>Wheel-Legged Robot (CJ-003)</strong><br />
+      <sub>Genesis · MuJoCo · RL · Locomotion</sub></p>
+      <p>Open-source wheel-legged biped with a pretrained PPO policy. Genesis GPU eval stays upright on rough / circular terrains; full motion gallery covers walk, turn, crouch, moonwalk, and lean.</p>
+      <p><a href="https://github.com/ypx19/wheel-leg-robotic">GitHub</a> · <a href="https://ypx19.github.io/wheel-leg-robotic/">Live demo</a> · <a href="https://ypx19.github.io/wheel-leg-robotic/#motions">Motions</a></p>
+    </td>
+    <td valign="top" width="50%">
       <img src="img/rod-rotation-screwdriver.gif" alt="Rod Rotation MVP screwdriver view" />
       <img src="img/rod-rotation-isaacgym.gif" alt="Rod Rotation MVP IsaacGym view" />
       <p><strong>Rod Rotation MVP</strong><br />
@@ -65,6 +73,8 @@ Lately that means contributing to [Transnode AI](https://www.transnode.ai/)’s 
       <p>RL-trained three-finger in-hand rotation under tip constraints — a stable twisting gait built for future dexterous tool use.</p>
       <p><a href="https://github.com/ypx19/allegro_rod_mvp">GitHub</a> · <a href="https://ypx19.github.io/allegro_rod_mvp/demo.html">Interactive demo</a></p>
     </td>
+  </tr>
+  <tr>
     <td valign="top" width="50%">
       <img src="img/self-balancing-demo.gif" alt="Self-balancing robot demo" />
       <p><strong>Self-Balancing Robot</strong><br />
@@ -72,8 +82,6 @@ Lately that means contributing to [Transnode AI](https://www.transnode.ai/)’s 
       <p>Arduino + IMU + encoder dual-loop PID balancing from scratch — ISR-driven sensing and motor control.</p>
       <p><a href="https://github.com/ypx19/self-balancing-robot">GitHub</a></p>
     </td>
-  </tr>
-  <tr>
     <td valign="top" width="50%">
       <img src="img/interactive-grasp-demo.gif" alt="Interactive grasping demo" />
       <p><strong>Interactive Grasping in Crowds</strong><br />
@@ -81,6 +89,8 @@ Lately that means contributing to [Transnode AI](https://www.transnode.ai/)’s 
       <p>Closed-loop retrieval in cluttered shelves — perception, interactive planning, and grasp execution. IEEE CYBER 2024 Best Poster.</p>
       <p><a href="https://github.com/ypx19/interactive-grasping-in-crowd">GitHub</a> · <a href="https://ieeexplore.ieee.org/document/10749016/">IEEE paper</a> · <a href="https://ypx19.github.io/interactive-grasping/">Project page</a></p>
     </td>
+  </tr>
+  <tr>
     <td valign="top" width="50%">
       <img src="img/Lumen_Boom.jpeg" alt="Lumen AI earphone prototype" />
       <p><strong>AI-Powered Earphone Prototype</strong><br />
@@ -88,27 +98,27 @@ Lately that means contributing to [Transnode AI](https://www.transnode.ai/)’s 
       <p>Three-day AdventureX 2025 build: camera, Bluetooth, speaker, and LLM connectivity for vision-aware conversational assistance.</p>
       <p><a href="https://github.com/ypx19/Lumen">GitHub</a></p>
     </td>
-  </tr>
-  <tr>
     <td valign="top" width="50%">
       <img src="img/gello-demo.gif" alt="Gello teleoperation demo" />
       <p><strong>Gello Robot for Teleoperation</strong><br />
       <sub>Teleoperation · Hardware · Data collection</sub></p>
       <p>Low-cost Gello-style teleoperation device integrating motors, brackets, 3D-printed structure, and calibration for human demonstration collection toward imitation learning.</p>
     </td>
+  </tr>
+  <tr>
     <td valign="top" width="50%">
       <img src="img/humanoid-walking.gif" alt="Humanoid walking demo" />
       <p><strong>Humanoid Walking in MuJoCo</strong><br />
       <sub>MuJoCo · Locomotion</sub></p>
       <p>Studying balance, contact forces, and whole-body control strategies for stable humanoid locomotion in simulation.</p>
     </td>
-  </tr>
-  <tr>
     <td valign="top" width="50%">
       <p><strong>Dual-Friction-Wheel Launcher</strong><br />
       <sub>Embedded · Mech · 3rd Prize</sub></p>
       <p>Remote-control siege robot with dual friction-wheel launcher — chassis, transmission, motor control, and power. Tsinghua SIEGE 3rd Prize.</p>
     </td>
+  </tr>
+  <tr>
     <td valign="top" width="50%">
       <p><strong>Optimization-Driven Robotic Hand</strong><br />
       <sub>Warp · Optimization · Sim2Real</sub></p>
