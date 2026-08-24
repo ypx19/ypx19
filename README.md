@@ -76,11 +76,14 @@ Lately that means contributing to [Transnode AI](https://www.transnode.ai/)’s 
   </tr>
   <tr>
     <td valign="top" width="50%">
-      <img src="img/self-balancing-demo.gif" alt="Self-balancing robot demo" />
+      <a href="https://ypx19.github.io/self-balancing-robot/">
+        <video src="https://ypx19.github.io/assets/projects/self-balancing-hw-teaser.mp4" width="49%" muted loop playsinline controls poster="https://ypx19.github.io/assets/projects/self-balancing-hw.jpg" aria-label="Hardware balancing teaser"></video>
+        <video src="https://ypx19.github.io/assets/projects/self-balancing-sim-teaser.mp4" width="49%" muted loop playsinline controls poster="https://ypx19.github.io/assets/projects/self-balancing-sim.jpg" aria-label="Sim RL-on-grade teaser"></video>
+      </a>
       <p><strong>Self-Balancing Robot</strong><br />
-      <sub>Embedded · PID · Control</sub></p>
-      <p>Arduino + IMU + encoder dual-loop PID balancing from scratch — ISR-driven sensing and motor control.</p>
-      <p><a href="https://github.com/ypx19/self-balancing-robot">GitHub</a></p>
+      <sub>Embedded · PID · IL/RL · Control</sub></p>
+      <p>Arduino + IMU + encoder dual-loop PID from scratch — then the same plant in sim, with imitation and RL learning to lean into a grade.</p>
+      <p><a href="https://github.com/ypx19/self-balancing-robot">GitHub</a> · <a href="https://ypx19.github.io/self-balancing-robot/">Project page</a></p>
     </td>
     <td valign="top" width="50%">
       <img src="img/interactive-grasp-demo.gif" alt="Interactive grasping demo" />
